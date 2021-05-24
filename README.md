@@ -121,6 +121,8 @@ O openJDK é a versao 11, Maven 3.8.1 e Node 14
 Todos os processos de instalação estao linkados acima, mas vou descrever o processo que utilizei para instalar o Maven e o Node, que considero uma das partes que mais exigem atenção:
 O Node precisa estar acima da versao 14
 
+<b> Nota: Todo o projeto foi feito e testado em um sistema Linux baseado no Ubuntu LTS, é muito recomandado que a instalação dos pacotes e dependências seja, se possível, feitas em um sistema Linux</b>
+
 ### Instalando o NodeJs
 
 E possível instalar o Node utilizando:
