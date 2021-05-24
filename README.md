@@ -31,19 +31,30 @@ Para o front end, foi feito o uso da framework de JavaScript VueJs.
 
 Como abordado anteriormente, foi desenvolvida uma API para alimentar o serviço do cliente, note então que o projeto tem dois serviços rodando, a API com Spring e o Cliente com o Vue.
 
-A API vai se comunicar com o banco e devolver os dados no formato JSON para que possa ser consumida pelo front end.
+A API vai se comunicar com o banco e devolver os dados no formato JSON para que possa ser consumida pelo front end. E também serve para fazer calculos como o total de taxas cobradas pela empresa de câmbio.
    
 É possível também enviar requisições POST que vão traduzir objetos JSON e fazer o devido INSERT no banco (na tabela "cambio", especificamente).
 
-Além disso, a API tem diferentes endpoints que nao foram utilizados devido a facilidade do Vue de processar os dados para fazer pesquisas, esses endpoints fazem gets e devolvem requisições especificas.
+### :mortar_board: Utilização da api
 
   - <b>"/api/v1/cambios/cliente/{nome do cliente}"</b> - retorna apenas os câmbios cujo cliente possui o nome indicado.
 
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Class-website" title="#Class-website" src="./screenShots/api1.png" width="350px">
+</p>
+
   - <b>"/api/v1/cambios/{ID}/"</b> - retorna apenas câmbios cujo id foi indicado na URL.
-
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Class-website" title="#Class-website" src="./screenShots/api2.png" width="350px">
+</p>
   - <b>"/api/v1/cambios/data/{data do cambio}"</b> - retorna apenas câmbios cuja data foi indicada na URL
-
-As funcionalidades da API ficaram apenas para o resgate de informação no endpoint "/api/v1/cambios/" e a inserção de informação no mesmo. Por conta do escopo do projeto e do poder da ferramenta VueJs, nem todos os endpoints da API são utilizados.
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Class-website" title="#Class-website" src="./screenShots/api3.png" width="350px">
+</p>
+  - <b>"/api/v1/cambios/total"</b> - retorna o total de taxas cobradas.
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Class-website" title="#Class-website" src="./screenShots/api4.png" width="350px">
+</p>
 
 
 ## :earth_americas: Sobre a Aplicação WEB
