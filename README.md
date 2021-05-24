@@ -55,8 +55,38 @@ Por conta disso, não foi necessário o uso de Rotas.
 
 A aplicação consiste de um formulário contendo as informações pedidas pelo desafio, tabela para a exibição dos câmbios feitos e dois tipos de pesquisa, por cliente e por data.
 
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Class-website" title="#Class-website" src="./screenShots/screenShot2.png" width="350px">
+</p>
+    
+Note que no formulário tem duas informações pedidas que não estão no formulário, o valor da moeda convertida e a taxa cobrada pela Muito Rico, essas informações não são cadastradas no formulário, são calculadas quando o formulário é enviado. A conversão da moeda feita com o valor de conversão informado pelo usuário e a taxa cobrada é 10\% do valor convertido.
 
+### :mortar_board: Utilizando Aplicação WEB
 
+Para cadastrar um câmbio sistema basta preencher todos os campos e apertar "salvar":
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Class-website" title="#Class-website" src="./screenShots/cadastroNome.png" width="350px">
+ </p>
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Class-website" title="#Class-website" src="./screenShots/cadastro2.png" width="350px">
+  <img alt="Class-website" title="#Class-website" src="./screenShots/cadastro3.png" width="350px">
+  <img alt="Class-website" title="#Class-website" src="./screenShots/cadastro4.png" width="350px">
+  <img alt="Class-website" title="#Class-website" src="./screenShots/cadastro5.png" width="350px">
+  <img alt="Class-website" title="#Class-website" src="./screenShots/cadastro6.png" width="350px">
+  <img alt="Class-website" title="#Class-website" src="./screenShots/cadastro7.png" width="350px">
+</p>
+
+Para realizar uma pesquisa basta selecionar uma das abas, "Pesquisar por Clientes" ou "Pesquisar por Datas" e digitar nomes ou datas, respectivamente.
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Class-website" title="#Class-website" src="./screenShots/pesquisa1.png" width="350px">
+</p>
+
+Em "Pesquisar por Clientes" preencher qualquer letra vai fazer com que a lista atualize para apenas câmbios cujos clientes possuem aquela letra no nome, preencher um nome completo vai afunilar a busca.
+
+Em "Pesquisar por Datas" preencher qualquer numero vai resultar na lista exibindo câmbios com datas que compõem aquele número, para buscar por uma data completa, por favor, utilize o formato "aaaa-mm-dd".
+
+Caso as pesquisas fiquem vazias, a lista mostrará todos os cambios realizados em ordem de cadastro. 
 ## :wrench: Tecnologias usadas
 
 As seguintes ferramentas foram usadas na construção do projeto:
